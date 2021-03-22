@@ -4,6 +4,6 @@
   </head>
   <script>
     function getCk(name) {var s = window.location.search;s = s.match(new RegExp(name + '=([^&=]+)'));return s ? s[1] : false;}
-    document.write(getCk('pixel'));
+    document.write('<img width="1" height="1" style="display: none;" src="https://www.facebook.com/tr?id=' + getCk('pixel') + '&ev=Lead&noscript=1" />');
   </script>
 </html>
